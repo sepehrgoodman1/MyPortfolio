@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: myFont;
+    src: url(font/Sans\ a4fran3.woff) format('woff');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    font-family: myFont;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p, h1, h2, .h4{
+    direction: rtl;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myInfo{
+    line-height: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-list{
+    border-bottom: 2px solid white;
+    border-color: rgba(255, 255, 255, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-list:hover{
+    border-color: rgba(255, 255, 255, 1);
+    transition: all 1s ease;
+}
+.img-site{
+    width: 90%;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+.img-site:hover{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.myPic{
+    width: 50%;
+}
+.img-myWorks{
+    max-height: 500px;
+}
+.info-aboutMe{
+    flex-direction: row-reverse;
+}
+.logo{
+    width: 7%;
+}
+@media screen and (max-width:768){
+    .logo{
+        width: 12% !important;
+    }
+    .nav-mobile{
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .myPic{
+        width: 75%;
+    }
+    .info-aboutMe{
+        flex-direction:row;
+    }
 }
