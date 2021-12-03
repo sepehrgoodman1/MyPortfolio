@@ -1,9 +1,6 @@
 import React from 'react'
 import myPic from '../images/Sepehr.jpg'
 
-
-
-
 function AboutMe() {
     return (
         <div className='container my-5'>
@@ -13,7 +10,7 @@ function AboutMe() {
                 </div>
                 <div className='col-12 col-md-6 d-flex justify-content-end align-items-center'>
                     <div className='text-center'>
-                        <h2> من</h2>
+                        <h2>درباره من</h2>
                         <p className='myInfo pt-4'>سلام،
                              من سپهر خادمی هستم  
                              از سال 1397 برنامه نویسی
@@ -21,7 +18,7 @@ function AboutMe() {
                                هست که با انواع زبان های برنامه نویسی
                                و نرم افزار 
                                های طراحی کار کردم و سابقه
-                                کار کردن به عنوان گرافیست به مدت 6 ماه در شرکت خارجی grub24 رو دارم
+                                کار کردن به مدت 6 ماه در شرکت خارجی grub24 رو دارم
                                   همچنین به زبان انگیسی مسلط ام و 
                                 حدودا یک سال هست تمام دوره
                                  های اموزشی رو با منابع

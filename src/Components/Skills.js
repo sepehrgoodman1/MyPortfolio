@@ -16,7 +16,7 @@ function Skills() {
                     <p className='text-warning'>مهارت های در حد متوسط</p>
                 </div>
                 <div className='h5'>
-                    Php, MySql, linux & kali Linux, Adobe Ai, Adobe Xd, Adobe Pr, Onsen Ui
+                    Php, MySql, linux & kali Linux, Adobe Ai, Adobe Xd, Adobe Pr, Onsen Ui, Type Script
                 </div>
             </div>
             <div className='Skills bg-dark rounded text-white p-3 text-center my-4'>
