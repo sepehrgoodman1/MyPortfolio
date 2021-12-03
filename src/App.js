@@ -99,7 +99,7 @@ function App() {
     },
     {
       text:'لینک گیت هاب همین سایت (React js , Bootstrap 5) ',
-      link:'https://github.com/sepehrgoodman1/React-Pizza-Website',
+      link:'https://github.com/sepehrgoodman1/MyPortfolio',
       img:ThisSite
     },
     {
