@@ -13,7 +13,7 @@ function AboutMe() {
                 </div>
                 <div className='col-12 col-md-6 d-flex justify-content-end align-items-center'>
                     <div className='text-center'>
-                        <h2>درباره من</h2>
+                        <h2> من</h2>
                         <p className='myInfo pt-4'>سلام،
                              من سپهر خادمی هستم  
                              از سال 1397 برنامه نویسی
