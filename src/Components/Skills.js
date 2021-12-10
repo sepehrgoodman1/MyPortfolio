@@ -8,7 +8,7 @@ function Skills() {
                     <p className='text-info'>مهارت های تخصصی</p>
                 </div>
                 <div className='h5'>
-                    Html Css, Bootstrap 5, Responsive Design, Java Script, Jquery, React Js, C++, C#(unity engine), Photoshop
+                    Html Css, Bootstrap 5, Responsive Design, Java Script, Jquery, ES6+, React Js, C++, C#(unity engine), Photoshop
                 </div>
             </div>
             <div className='Skills bg-dark rounded text-white p-3 text-center my-4'>
