@@ -5,12 +5,22 @@
 *{
     font-family: myFont;
 }
-p, h1, h2, .h4{
+p, h1, h2, .h4 , h3 , .AboutArt{
     direction: rtl;
+}
+.link{
+    text-decoration: none;
 }
 .myInfo{
     line-height: 30px;
 }
+.bold{
+    font-weight: 600;
+}
+.imgArtist{
+    width: 500px;
+}
+
 .nav-list{
     border-bottom: 2px solid white;
     border-color: rgba(255, 255, 255, 0);

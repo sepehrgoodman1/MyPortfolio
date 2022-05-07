@@ -46,8 +46,16 @@ import G14 from './images/g14.jpg'
 import G15 from './images/g15.jpg'
 import G16 from './images/g16.jpg'
 import mobile from './images/Grub-MobileWeb.jpg'
+import ArtGallery from './images/Artists list.jpg'
+
+
 
 export const ListWebDesign =[
+  {
+    text:'پروژه  Art Gallery با React js Next js',
+    link:'https://raeen-art-gallery78.vercel.app/',
+    img:ArtGallery
+  },
     {
       text:'طراحی سایت رستورانی با React js ',
       link:'https://github.com/sepehrgoodman1/React-Pizza-Website',
