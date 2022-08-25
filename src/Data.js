@@ -53,7 +53,7 @@ import ArtGallery from './images/Artists list.jpg'
 export const ListWebDesign =[
   {
     text:'پروژه  Art Gallery با React js Next js',
-    link:'https://raeen-art-gallery78.vercel.app/',
+    link:"https://artor.net",
     img:ArtGallery
   },
     {

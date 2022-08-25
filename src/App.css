@@ -11,6 +11,10 @@ p, h1, h2, .h4 , h3 , .AboutArt{
 .link{
     text-decoration: none;
 }
+.Link{
+    cursor: pointer;
+    color: blue;
+}
 .myInfo{
     line-height: 30px;
 }

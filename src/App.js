@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/Graphic"  element={<><SiteDesign MyList={GraphicDesign} 
-          Title={'طراحی های گرافیکی برای شرکت خارجی grub24'} /> </> } />
+          Title={'طراحی های گرافیکی برای شرکت های خارجی '} /> </> } />
         </Routes>
         <Routes>
           <Route path="/GameDev"  element={<><SiteDesign MyList={GameDev} Title={'بازی های کامپیوتری'} /> </> } />
