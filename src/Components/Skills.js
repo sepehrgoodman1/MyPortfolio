@@ -8,7 +8,7 @@ function Skills() {
                     <p className='text-info'>مهارت های تخصصی</p>
                 </div>
                 <div className='h5'>
-                    Html Css, Bootstrap 5, Responsive Design, Java Script, Jquery, ES6+, React Js, React Query, Next js, Material Ui ,C++ , C#(unity engine), Photoshop
+                    Html Css, Bootstrap 5, Responsive Design, Java Script, Jquery, ES6+, React Js, React Query, Next js, Material Ui , github, C++, C#(unity engine), Photoshop
                 </div>
             </div>
             <div className='Skills bg-dark rounded text-white p-3 text-center my-4'>
@@ -16,7 +16,7 @@ function Skills() {
                     <p className='text-warning'>مهارت های در حد متوسط</p>
                 </div>
                 <div className='h5'>
-                 Php, MySql, linux & kali Linux, Adobe Ai, Adobe Xd, Adobe Pr, Onsen Ui, Type Script
+                 MySql, linux & kali Linux, Adobe Ai, Adobe Xd, Adobe Pr, Onsen Ui, Type Script
                 </div>
             </div>
             <div className='Skills bg-dark rounded text-white p-3 text-center my-4'>
@@ -32,7 +32,7 @@ function Skills() {
                     <p>مهارت های در حال یادگیری</p>
                 </div>
                 <div className='h5'>
-                    Asp.net core 
+                    node js 
                 </div>
             </div>
         </div>

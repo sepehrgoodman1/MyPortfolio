@@ -54,7 +54,64 @@ p, h1, h2, .h4 , h3 , .AboutArt{
 .logo{
     width: 7%;
 }
-@media screen and (max-width:768){
+.ScrollerImg{
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 18px;
+    direction: rtl;
+}
+.C_Scroll{
+    display: inline-block;
+    margin-left: 12px;
+}
+.ImgInScroll{
+ height: 400px;
+}
+.FontMyCode{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+.FontMyCodeLast{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+    margin-top: 12px;
+}
+.FontMyCodeFirst{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 12px;
+}
+.mt_30{
+    margin-top: 100px;
+}
+
+/* width */
+.ScrollerImg::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  /* Track */
+  .ScrollerImg::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .ScrollerImg::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  .ScrollerImg::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 4px;
+  }
+
+@media screen and (max-width:768px){
     .logo{
         width: 12% !important;
     }
@@ -63,9 +120,50 @@ p, h1, h2, .h4 , h3 , .AboutArt{
         justify-content: center !important;
     }
     .myPic{
-        width: 75%;
+        margin-bottom: 20px;
     }
     .info-aboutMe{
         flex-direction:row;
     }
+    .ImgInScroll{
+        height: 100px;
+    }
+    .FontMyCode{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .FontMyCodeLast{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: end;
+        margin-top: 12px;
+    }
+    .FontMyCodeFirst{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: start;
+        margin-top: 12px;
+    }
+    .ScrollerImg::-webkit-scrollbar {
+        height: 5px;
+      }
+      
+      /* Track */
+      .ScrollerImg::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      /* Handle */
+      .ScrollerImg::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+      
+      /* Handle on hover */
+      .ScrollerImg::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        border-radius: 4px;
+      }
 }
