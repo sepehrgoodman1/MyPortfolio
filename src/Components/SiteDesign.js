@@ -5,7 +5,7 @@ import ArtistList from '../images/Artists list.jpg'
 
 function SiteDesign({MyList, Title}) {
     return (
-        <div className='container my-5 pt-5'>
+        <div className='container mb-5 mt-2'>
             <h2 className='text-dark pt-5'>{Title}</h2>
             <hr/>            
 

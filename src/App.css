@@ -57,7 +57,7 @@ p, h1, h2, .h4 , h3 , .AboutArt{
 .ScrollerImg{
     overflow: auto;
     white-space: nowrap;
-    padding-bottom: 18px;
+    padding-bottom: 28px;
     direction: rtl;
 }
 .C_Scroll{
@@ -85,8 +85,11 @@ p, h1, h2, .h4 , h3 , .AboutArt{
     text-align: start;
     margin-top: 12px;
 }
-.mt_30{
+.mt_100{
     margin-top: 100px;
+}
+.Mt_150{
+    margin-top: 150px;
 }
 
 /* width */
@@ -166,4 +169,7 @@ p, h1, h2, .h4 , h3 , .AboutArt{
         background: #555;
         border-radius: 4px;
       }
+      .Mt_150{
+        margin-top: 100px;
+    }
 }

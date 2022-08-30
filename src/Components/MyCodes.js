@@ -12,7 +12,7 @@ import Code9 from "../images/Screenshot (338).png";
 export default function MyCodes() {
   return (
     <div className="container">
-    <h3 className='text-dark mt_30 mb-4'>نمونه کدنویسی</h3>
+    <h3 className='text-dark mt_100 mb-4'>نمونه کدنویسی</h3>
     <hr/> 
       <div className="ScrollerImg">
         <div className="C_Scroll">

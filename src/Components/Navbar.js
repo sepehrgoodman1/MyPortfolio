@@ -16,7 +16,7 @@ function Navbar({Logo}) {
                     <div className="navbar-nav fs-5 ">
                     <a className="nav-link  text-white px-3 mx-3 nav-list text-center" href="/Graphic">طراحی های گرافیکی</a>
                     <a className="nav-link text-white px-3 mx-3 nav-list text-center" href="/GameDev">بازی های کامپیوتری</a>
-                    <a className="nav-link text-white px-3 mx-3 nav-list text-center" href="/DesignWeb">طراحی سایت</a>
+                    <a className="nav-link text-white px-3 mx-3 nav-list text-center" href="/webdesign">طراحی سایت</a>
                     <a className="nav-link  text-white px-3 mx-3 nav-list text-center" aria-current="page" href="/">صفحه اصلی</a>
                     </div>
                 </div>
